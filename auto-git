@@ -1,4 +1,7 @@
 #!/usr/bin/bash
 cp -v ~/vimwiki_html/*html ~/vimwiki_html/*css ~/github/Sem-II_wiki/
-git 
+git add .
+git status
+git commit -m "$(echo '' | dmenu -p "commit:" )"
+git push -u Sem-II_wiki master
 
