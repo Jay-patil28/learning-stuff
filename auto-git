@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+cp -v ~/vimwiki_html/*html ~/vimwiki_html/*css ~/github/Sem-II_wiki/
+git 
+
