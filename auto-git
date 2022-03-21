@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-cp -v ~/vimwiki_html/*html ~/vimwiki_html/*css ~/github/Sem-II_wiki/
+cp -v ~/vimwiki_html/ ~/github/Sem-II_wiki/
 git add .
 git status
 git commit -m "$(echo '' | dmenu -p "commit:" )"
