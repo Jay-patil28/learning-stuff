@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+rm -rvf vimwiki_html
 cp -vr ~/vimwiki_html/ ~/github/Sem-II_wiki/
 git add .
 git status
