@@ -2,7 +2,7 @@
 rm -rvf vimwiki_html
 cp -vr ~/vimwiki_html/ ~/github/Sem-II_wiki/
 git status
-git add *
+git add --all
 git commit -m "$(echo '' | dmenu -p "commit:" )"
 git push -u Sem-II_wiki master
 
