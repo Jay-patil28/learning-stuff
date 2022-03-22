@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 rm -rvf vimwiki_html
-cp -v ~/vimwiki_html/ ~/github/Sem-II_wiki/
+cp -vrf ~/vimwiki_html/* ~/github/Sem-II_wiki/
 git status
 git add --all
 git commit -m "$(echo '' | dmenu -p "commit:" )"
