@@ -1,0 +1,21 @@
+<html><body><h1>Writing a Basic Web Page</h1>
+
+	<p><b>Hello World</b>, this article will cover some basic concepts of creating & designing web pages. You don't need any fancy tools just simple text editor, a way to rename the file(file manager) & browser which can open files so it can be done on a phone.This is not going to show how to set up server so others with internet can view the web page(check links at end) </p>
+	<p class="html"> To start create a file with html extension (meaning have .html at end) this is main html file which contains html code.The first thing to know about HTML is the syntax <TAG> ATTRIBUTE_NAME=ATTRIBUTE_VALUE> CONTENT <TAGEND>, tags are written in arrow brackets & the content is written between start of tag & end of tag, some tags don't have start & end as they are used for relying information to browsers like in which language the browser should render web page then there are other things in arrow brackets they are called ATTRIBUTE this have two components ATTRIBUTE_NAME & ATTRIBUTE_VALUE for more info read docs. Some tags are self-explanatory like <p> for paragraph,<u>for underline</u>,etc.</p>. There is style & script tag are used to write respectively CSS & JavaScript in html file which we will see soon. Now here you should take a little time & notice that this is written in html, go try it.
+
+	<p>Lets look at CSS it is recommended to write CSS code in new file with .css extension & link it using "link" tag but you can write it in html file itself as follows<br>
+<style> u { color: yellow; background: black; } p.html { color: #FFFFFF; background: red ; } h1 { color: green;} .java { background: green;} </style>
+this code is written in one line but you can write it on different lines just get the syntax correct (SELECTOR {PROPERTY: PROPERTY_VALUE;}). SELECTOR can be the tag,class or tags of certain class(class is assigned to tag by class ATTRIBUTE), PROPERTY is option to change how certain things render, PROPERTY_VALUE is option available for the PROPERTY. Again check docs </p>
+
+	<p class=java>Now JavaScript, here also creating new file is recommended & linked using "script" tag with 'src' attribute but it can be written as follows <br>
+<script>prompt("what is 2+2") != 4 && alert("you are wrong")</script>
+JavaScript is a programming language which adds interactively to web page. 
+You type JavaScript in your browser by right-clicking then selecting inspect & going in console tab.</p>
+	<p>There are tags,attribute,property & JavaScript code which will take too long cover in this article so read the documentation at the end or find one which suits you,
+also check out other links if you are interested in web developing</p>
+<h3> releted links </h3>
+<ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">Documentation</a>
+<li><a href="https://medium.com/javarevisited/10-articles-every-web-developer-should-read-2efca81d0696">10 articales every web developer should read</a>
+<li><a href="https://javarevisited.blogspot.com/2019/02/the-2019-web-developer-roadmap.html">web devloper roadmap</a>
+<li><a href="https://landchad.net/">simple guied to setting up website</a></ul><body><html>
+
